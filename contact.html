@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Paul Onim</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar container">
+        <a href="index.html" class="logo">Paul<span>.</span></a>
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="articles.html">Knowledge Hub</a></li>
+            <li><a class="nav-cta active" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="page-intro">
+        <span class="eyebrow">LET'S CONNECT</span>
+        <h1>Contact <span class="highlight">Me</span></h1>
+        <p>
+            Have a question, project idea, collaboration opportunity
+            or suggestion? I would be glad to hear from you.
+        </p>
+    </section>
+
+    <section class="section">
+        <div class="container contact-layout">
+
+            <div>
+                <h2 style="color:var(--deep-purple);margin-bottom:20px;">
+                    Get in Touch
+                </h2>
+
+                <div class="contact-detail">
+                    <h3>📧 Email</h3>
+                    <p>your-email@example.com</p>
+                </div>
+
+                <div class="contact-detail">
+                    <h3>🎓 Institution</h3>
+                    <p>Technical University of Mombasa</p>
+                </div>
+
+                <div class="contact-detail">
+                    <h3>💼 Career Interest</h3>
+                    <p>Full-Stack Web Development</p>
+                </div>
+
+                <div class="contact-detail">
+                    <h3>🔗 Professional Profiles</h3>
+                    <p>
+                        <a href="#" target="_blank">LinkedIn</a> |
+                        <a href="#" target="_blank">GitHub</a> |
+                        <a href="#" target="_blank">Facebook</a>
+                    </p>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <h2 style="color:var(--deep-purple);">Send a Message</h2>
+
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject"
+                       placeholder="What is your message about?" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message"
+                          placeholder="Write your message here..." required></textarea>
+
+                <button type="submit" class="btn btn-primary"
+                        style="margin-top:20px;">
+                    Submit Message
+                </button>
+
+                <p id="formMessage" class="form-message" aria-live="polite"></p>
+            </form>
+
+        </div>
+    </section>
+</main>
+
+<footer>
+    <h2>Paul<span>.</span></h2>
+    <p>Computer Science Student | Aspiring Full-Stack Web Developer</p>
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+    </div>
+    <p class="copyright">© <span id="year"></span> Paul Onim. All Rights Reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
